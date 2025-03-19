@@ -1,0 +1,44 @@
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.price-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price-single-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 500px;
+}
+.price-single-item-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+.price-image-placeholder {
+    position: relative; 
+    display: inline-block;
+}
+
+.price-transparent-box {
+    position: absolute;
+    bottom: 10px; 
+    right: 10px;
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(6, 55, 146, 0.7);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    color: white;
+}

@@ -1,0 +1,44 @@
+.full-bleed{
+    box-shadow: 0 0 0 100vmax #0e9afa;
+    clip-path: inset(0 -100vmax);
+}
+.header{
+    display: flex;
+    background-color: #0e9afa;
+    min-height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-inner-container{
+    display: flex;
+    align-items: center;
+}
+.img-link{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 30px;
+    width: 30px; 
+    background-color: #0e9afa;
+    margin-left: 8px;
+    border-radius: 2px;
+}
+.header-reserve-action{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 24px;
+    min-width: 200px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+/* .image-container{
+    position: relative;
+    background-color: #ffffff;
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */

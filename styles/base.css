@@ -1,0 +1,28 @@
+
+.container{
+    margin: 0; 
+    display: block;
+}
+
+
+@media (min-width: 1400px) {
+    body {
+        padding-left: calc((100% - 1400px) / 3);
+        padding-right: calc((100% - 1400px) / 3);
+        font-family: Trebuchet MS, sans-serif;
+    }
+}
+html { scroll-behavior: smooth; }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5ced1;
+    padding: 0px 7px;
+}
+.footer-full-bleed {
+    box-shadow: 0 0 0 100vmax #c5ced1;
+    clip-path: inset(0 -100vmax);
+}
